@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="038eafb3-0393-4039-9b75-7b73472b3d50">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="158"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     i_data_kk.`no_surat` AS i_data_kk_no_surat,
+     i_data_kk.`tanggal_surat` AS i_data_kk_tanggal_surat,
+     i_data_kk.`no_kk` AS i_data_kk_no_kk
+FROM
+     `i_data_kk` i_data_kk]]>
+	</queryString>
+	<field name="i_data_kk_no_surat" class="java.lang.String"/>
+	<field name="i_data_kk_tanggal_surat" class="java.lang.String"/>
+	<field name="i_data_kk_no_kk" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="11" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="154" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="142" width="802" height="1" uuid="eefee353-e075-4ffd-8e2e-33ac567684e3"/>
+			</line>
+			<line>
+				<reportElement x="0" y="130" width="802" height="1" uuid="009be8c7-4095-4657-92b0-eb6795630c2d"/>
+			</line>
+			<staticText>
+				<reportElement x="299" y="10" width="261" height="21" uuid="2fc203d9-beb8-479d-8277-e80eb4efa4a6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA KARTU KK]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="281" y="55" width="314" height="34" uuid="9194057a-d413-480d-a2e8-3379f0086333"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KECAMATAN CIMANGGIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="267" y="31" width="314" height="34" uuid="5f65a379-6979-4860-a298-3428d5edd93f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KELURAHAN CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="294" y="86" width="272" height="20" uuid="8e5248f0-bfcc-49bc-9418-49c1a4be30f3"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Alamat : Jl. Raya Pekapuran Rt. 002/005 Telp.(021)8741672]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="309" y="106" width="272" height="20" uuid="17d23602-cd39-4da5-82c4-8adb3b920556"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Cimanggis- Depok 16453]]></text>
+			</staticText>
+			<image>
+				<reportElement x="207" y="31" width="57" height="75" uuid="8b4b5c5a-88dc-4592-9ad5-280c55ed2f10"/>
+				<imageExpression><![CDATA["D:\\AppLogin\\applogin\\src\\applogin\\imageEsDFDF.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<rectangle>
+				<reportElement x="191" y="41" width="127" height="20" backcolor="#FFFFFF" uuid="131aeeb3-96be-451d-8d29-05279400eec6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="469" y="41" width="151" height="20" backcolor="#FFFFFF" uuid="39ca4f46-00c9-40c5-a1c4-58f62ede65ad"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="318" y="41" width="151" height="20" backcolor="#FFFFFF" uuid="b9f65345-ab56-4f44-8ece-85dd1c05886f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="229" y="41" width="65" height="20" uuid="36635d99-2644-4e60-9fad-c8c09b933164"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[No Surat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="41" width="100" height="20" uuid="2e78e463-ffc8-4d6c-afae-37701d707455"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Tanggal Surat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="517" y="41" width="78" height="20" uuid="2fb0b847-8a99-422d-9d03-c8b9a2ded747"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[No KK]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement x="207" y="0" width="100" height="20" uuid="ba7e075d-a5ed-4a7d-8e82-584cee0e4a77"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_kk_no_surat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="495" y="0" width="100" height="20" uuid="215438eb-7350-4a7a-8f56-9df4284b216c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_kk_no_kk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Transparent" x="341" y="0" width="100" height="20" uuid="55c3edf9-0dfc-42e1-aa36-2c12ba15bbb2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_kk_tanggal_surat}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="469" y="0" width="151" height="20" uuid="67296574-f763-4ade-aec8-2f341c35269b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="191" y="0" width="127" height="20" uuid="a25ccab5-d2fe-4a5f-bbfd-99d460f9a084"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="318" y="0" width="151" height="20" uuid="557a3e19-9336-4f49-99b1-5cb39dc54838"/>
+			</rectangle>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="11" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="159" splitType="Stretch">
+			<staticText>
+				<reportElement x="517" y="20" width="49" height="20" uuid="947881a6-be4e-4146-816d-5a4882ae54a0"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[LURAH  CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="101" width="193" height="20" uuid="c048af63-0744-4d6e-a31f-8cb7b43c8b9d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[BAMBANG EKO SUKMONO, S.Sos]]></text>
+			</staticText>
+			<line>
+				<reportElement x="455" y="120" width="193" height="1" uuid="4f06e7c3-cf43-47cf-86af-cb6da29ba3b4"/>
+			</line>
+			<staticText>
+				<reportElement x="471" y="121" width="149" height="20" uuid="e0d4f7d9-bbe0-49bb-9cd0-b9bdf54607e0"/>
+				<text><![CDATA[NIP. 19670915.198901.1.1.002]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="531" y="0" width="100" height="20" uuid="0c88b9c2-b2b3-495d-b7cc-1c517bb501d9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="495" y="0" width="35" height="20" uuid="77f4f28f-4064-4182-abe6-103e646a1ec0"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Depok]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

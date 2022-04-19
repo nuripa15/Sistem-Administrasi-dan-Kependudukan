@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="1100" pageHeight="595" orientation="Landscape" columnWidth="1060" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="460f423f-c9a9-4c07-af0d-045c6bbe4959">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="316"/>
+	<property name="ireport.y" value="31"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     data_surat_perijinan.`no_surat` AS data_surat_perijinan_no_surat,
+     data_surat_perijinan.`nik` AS data_surat_perijinan_nik,
+     data_surat_perijinan.`nama` AS data_surat_perijinan_nama,
+     data_surat_perijinan.`tgl` AS data_surat_perijinan_tgl,
+     data_surat_perijinan.`alamat` AS data_surat_perijinan_alamat,
+     data_surat_perijinan.`kelurahan` AS data_surat_perijinan_kelurahan,
+     data_surat_perijinan.`Kecamatan` AS data_surat_perijinan_Kecamatan,
+     data_surat_perijinan.`Keterangan` AS data_surat_perijinan_Keterangan,
+     data_surat_perijinan.`Jenis_surat` AS data_surat_perijinan_Jenis_surat
+FROM
+     `data_surat_perijinan` data_surat_perijinan]]>
+	</queryString>
+	<field name="data_surat_perijinan_no_surat" class="java.lang.String"/>
+	<field name="data_surat_perijinan_nik" class="java.lang.String"/>
+	<field name="data_surat_perijinan_nama" class="java.lang.String"/>
+	<field name="data_surat_perijinan_tgl" class="java.lang.String"/>
+	<field name="data_surat_perijinan_alamat" class="java.lang.String"/>
+	<field name="data_surat_perijinan_kelurahan" class="java.lang.String"/>
+	<field name="data_surat_perijinan_Kecamatan" class="java.lang.String"/>
+	<field name="data_surat_perijinan_Keterangan" class="java.lang.String"/>
+	<field name="data_surat_perijinan_Jenis_surat" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="8" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="183" splitType="Stretch">
+			<image>
+				<reportElement x="301" y="39" width="57" height="75" uuid="070436b4-6b5d-48d8-8e36-b19a907ff5e1"/>
+				<imageExpression><![CDATA["D:\\AppLogin\\applogin\\src\\applogin\\imageEsDFDF.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="413" y="18" width="216" height="21" uuid="16526736-7be3-4ecc-9539-8a65a0f1c1eb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN SURAT PERIJINAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="368" y="73" width="314" height="34" uuid="f19f9332-b3a4-4c45-85fd-53a7e7163a3d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KECAMATAN CIMANGGIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="358" y="39" width="314" height="34" uuid="fb3b0f9e-83e2-4e64-a210-4b1e75950d5b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KELURAHAN CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="381" y="107" width="272" height="20" uuid="7a4e3fe2-a0a6-4cd1-a96b-f526cd043e49"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Alamat : Jl. Raya Pekapuran Rt. 002/005 Telp.(021)8741672]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="381" y="127" width="272" height="20" uuid="e2c8bb00-c02d-47c8-b39d-d1c25a5e9c8c"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Cimanggis- Depok 16453]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="172" width="1060" height="1" uuid="4155dbde-a3f8-405b-8813-4c3bb2adf35d"/>
+			</line>
+			<line>
+				<reportElement x="0" y="161" width="1060" height="1" uuid="67278d0f-3c57-4240-a46e-d64916eaf8fa"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch">
+			<rectangle>
+				<reportElement x="101" y="3" width="100" height="20" uuid="9edb0c5a-3666-4660-a095-3b8d10b20d0b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="201" y="3" width="100" height="20" uuid="7eca85a3-a02f-4025-a7ea-bc4adbd50857"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="301" y="3" width="100" height="20" uuid="c082789d-bea4-41e8-8ef8-efbc7756331f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="401" y="3" width="100" height="20" uuid="65e56879-f429-4676-ac8b-7da427fd8eb7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="501" y="3" width="100" height="20" uuid="7346a13a-3de0-480f-a317-558f5cace946"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="601" y="3" width="100" height="20" uuid="9bd6f666-3056-418a-8b47-db5bcf34f284"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="701" y="3" width="100" height="20" uuid="2836fc11-ab32-4352-994e-b83d31872c1e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="801" y="3" width="100" height="20" uuid="ef7fbdfe-c79d-4caa-b598-91d7e52e8aab"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="101" y="3" width="100" height="20" uuid="82d932a3-409c-47ad-82ad-43cf5a963055"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[No Surat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="201" y="3" width="100" height="20" uuid="b8067e40-082c-45d1-9980-e372fc5827ab"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nik]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="301" y="3" width="100" height="20" uuid="d10e1a57-aaa7-4958-b2cf-c50ec076f520"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="3" width="100" height="20" uuid="cbd12fba-6668-48b6-932e-53931d6e1dfa"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="501" y="3" width="100" height="20" uuid="ce23016f-a06c-46f4-857b-9ba9daa049fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="601" y="2" width="100" height="20" uuid="629a06e3-e484-486f-8c5d-10b8e94a689e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Kelurahan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="701" y="3" width="100" height="20" uuid="35e0d25e-0986-4614-a56b-24593b154972"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Kecamatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="801" y="3" width="100" height="20" uuid="b29f7103-d1dd-4b75-8627-d30ab2cf824a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Keterangan]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="901" y="3" width="100" height="20" uuid="9ccd05e3-afbd-4b15-9d29-d58bcd56da74"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="901" y="3" width="100" height="20" uuid="00daedcc-bbe5-44fe-a96d-ad50a162b0e1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Jenis Surat]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<rectangle>
+				<reportElement x="101" y="0" width="100" height="20" uuid="193fb35d-c83c-4d41-a243-2d2e3f29329d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="201" y="0" width="100" height="20" uuid="520d838d-b4e8-4633-9404-727181473a1e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="301" y="0" width="100" height="20" uuid="498bdecd-163a-4765-877b-684547a32380"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="401" y="0" width="100" height="20" uuid="337bcdbe-b9e3-4551-989f-e3da37110ad3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="501" y="0" width="100" height="20" uuid="c0769b63-b3d5-455f-9572-ea8914f12323"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="601" y="0" width="100" height="20" uuid="cbb539a6-1365-4438-a062-691f04f41c90"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="701" y="0" width="100" height="20" uuid="7461897a-bace-4718-87b0-056cf26c1d97"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="801" y="0" width="100" height="20" uuid="c3c77366-14a8-412a-b177-4f4132f46dd8"/>
+			</rectangle>
+			<textField>
+				<reportElement x="101" y="0" width="100" height="20" uuid="a36da0c3-898b-408a-b989-a4ed3a4e108a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_no_surat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="201" y="0" width="100" height="20" uuid="f164e1bb-d122-4f3c-918e-961c57262f9d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_nik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="301" y="0" width="100" height="20" uuid="06a87f63-ec79-4333-9997-d48d99171dd0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="0" width="100" height="20" uuid="7bf48b65-43a4-42fd-8f8c-7ffc5ed4fb7f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_tgl}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="501" y="0" width="100" height="20" uuid="01610df2-ae79-435a-bbc3-b4364e9b068c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_alamat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="601" y="0" width="100" height="20" uuid="181a0dca-bcd6-43bd-a6e4-ae0e2ee239cd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_kelurahan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="701" y="0" width="100" height="20" uuid="914655a0-c818-4196-bac8-768485aeabaf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_Kecamatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="801" y="0" width="100" height="20" uuid="e82ed888-29a8-416c-ad6e-f3ee8ce53294"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_Keterangan}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="901" y="0" width="100" height="20" uuid="f5fbeb93-72da-4da4-b55f-42a12890b002"/>
+			</rectangle>
+			<textField>
+				<reportElement x="901" y="0" width="100" height="20" uuid="6d866fd3-bcee-466b-9a96-786f610cc405"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{data_surat_perijinan_Jenis_surat}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="162" splitType="Stretch">
+			<staticText>
+				<reportElement x="866" y="16" width="35" height="20" uuid="bf744e30-11d5-4a1f-ba01-2fcf371a05e1"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Depok]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="901" y="16" width="100" height="20" uuid="7e3194d8-dec7-4351-a949-b2b726cd6486"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="886" y="36" width="49" height="20" uuid="4436cf2a-0532-4dcd-8afc-eb9c71ed0264"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[LURAH  CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="852" y="98" width="193" height="20" uuid="1e931701-ca7b-4ea0-a16a-a0be954d4773"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[BAMBANG EKO SUKMONO, S.Sos]]></text>
+			</staticText>
+			<line>
+				<reportElement x="852" y="118" width="193" height="1" uuid="8a06c479-542e-4efd-8ff3-c55cd7adcea8"/>
+			</line>
+			<staticText>
+				<reportElement x="866" y="119" width="149" height="20" uuid="0f93261e-ef1a-426b-a7e5-4ae4c98a4fa0"/>
+				<text><![CDATA[NIP. 19670915.198901.1.1.002]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

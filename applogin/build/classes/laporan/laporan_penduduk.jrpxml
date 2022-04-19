@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperPrint xmlns="http://jasperreports.sourceforge.net/jasperreports/print" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/print http://jasperreports.sourceforge.net/xsd/jasperprint.xsd" name="null" pageWidth="1670" pageHeight="595" topMargin="20" leftMargin="20" bottomMargin="20" rightMargin="20" orientation="Landscape" locale="in" timezone="Asia/Jakarta">
+	<property name="net.sf.jasperreports.export.xml.start.page.index" value="0"/>
+	<property name="net.sf.jasperreports.export.xml.end.page.index" value="1"/>
+	<property name="net.sf.jasperreports.export.xml.page.count" value="2"/>
+	<origin band="background"/>
+	<origin band="title"/>
+	<origin band="pageHeader"/>
+	<origin band="columnHeader"/>
+	<origin band="detail"/>
+	<origin band="columnFooter"/>
+	<origin band="pageFooter"/>
+	<origin band="summary"/>
+	<page>
+		<image scaleImage="RetainShape" hAlign="Left" vAlign="Top">
+			<reportElement uuid="d4596aa3-d01a-4443-9a9a-ae67a3bcea6f" x="665" y="55" width="57" height="75" origin="1" srcId="1"/>
+			<imageSource isEmbedded="true">
+				<![CDATA[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
+2MSgNJVIZwAAAABJRU5ErkJggg==]]>
+			</imageSource>
+		</image>
+		<text textAlignment="Center" textHeight="16.098633" lineSpacingFactor="1.1499023" leadingOffset="-2.730957">
+			<reportElement uuid="3e057adf-e6e7-4dfd-9a2e-e8fdcd26c79d" x="747" y="34" width="261" height="21" origin="1" srcId="2"/>
+			<font fontName="Times New Roman" size="14" isBold="true"/>
+			<textContent><![CDATA[LAPORAN DATA PENDUDUK]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="25.297852" lineSpacingFactor="1.1499023" leadingOffset="-4.291504">
+			<reportElement uuid="08560ac7-867f-4988-bc39-137398a08da8" x="722" y="55" width="314" height="34" origin="1" srcId="3"/>
+			<font fontName="Times New Roman" size="22" isBold="true"/>
+			<textContent><![CDATA[KELURAHAN CURUG]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="25.297852" lineSpacingFactor="1.1499023" leadingOffset="-4.291504">
+			<reportElement uuid="7ddb5dc2-52d1-4e9a-af56-7792d0b0b077" x="722" y="89" width="314" height="34" origin="1" srcId="4"/>
+			<font fontName="Times New Roman" size="22" isBold="true"/>
+			<textContent><![CDATA[KECAMATAN CIMANGGIS]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="89d69f08-b4bb-43f8-986b-9abaacccadcc" x="747" y="123" width="272" height="20" origin="1" srcId="5"/>
+			<font isBold="false"/>
+			<textContent><![CDATA[Alamat : Jl. Raya Pekapuran Rt. 002/005 Telp.(021)8741672]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="ec2deeaf-d2ac-4922-82b4-4bd6d2e280a1" x="724" y="143" width="272" height="20" origin="1" srcId="6"/>
+			<font isBold="false"/>
+			<textContent><![CDATA[Cimanggis- Depok 16453]]></textContent>
+		</text>
+		<line>
+			<reportElement uuid="d259fc59-5332-4dbd-bc6e-185b3faa8de4" x="96" y="191" width="1500" height="1" origin="1" srcId="7"/>
+		</line>
+		<line>
+			<reportElement uuid="20b4f3a0-81e4-4462-a8ca-a8f0124149ee" x="96" y="180" width="1500" height="1" origin="1" srcId="8"/>
+		</line>
+		<rectangle radius="0">
+			<reportElement uuid="b1afdadb-897e-48f1-8135-5717707dff60" x="96" y="222" width="100" height="35" origin="3" srcId="9"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="e0ce2419-d219-40cc-aae1-b93ad25a4260" x="96" y="237" width="100" height="20" origin="3" srcId="10"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Nik]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="15cd83ad-f1a8-4703-8233-6e722c873ba5" x="196" y="222" width="100" height="35" origin="3" srcId="11"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="0355b9a3-6490-4f12-a749-736ed109f788" x="296" y="222" width="100" height="35" origin="3" srcId="12"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="1049d7bd-93cd-4a27-acaf-906a954b7ade" x="396" y="222" width="100" height="35" origin="3" srcId="13"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="5f566261-962d-44a0-82f5-4f865d0eb213" x="496" y="222" width="100" height="35" origin="3" srcId="14"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e10942db-bc6e-473a-a5b6-5d00a0a46d12" x="596" y="222" width="100" height="35" origin="3" srcId="15"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="12e0c01f-97bb-4639-bc30-26a28931f521" x="696" y="222" width="100" height="35" origin="3" srcId="16"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="0aa92226-f541-49f8-94a7-b3cd731ea4e5" x="796" y="222" width="100" height="35" origin="3" srcId="17"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="6242d8b6-22a3-4471-8e55-88975ad07bb4" x="896" y="222" width="100" height="35" origin="3" srcId="18"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="58cbc40d-e29f-4f2c-8039-4c1cc6069b8f" x="996" y="222" width="100" height="35" origin="3" srcId="19"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="36bd745e-1151-487c-a6c3-b9d599f7aa7b" x="1096" y="222" width="100" height="35" origin="3" srcId="20"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="b02b17a8-0343-4dd0-af35-ced64b905cca" x="1196" y="222" width="100" height="35" origin="3" srcId="21"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="7da0a59e-4b4d-4560-83ec-2044f8803f03" x="1296" y="222" width="100" height="35" origin="3" srcId="22"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="8f1e08b5-bbfc-4e0a-9582-d215e8c60892" x="1396" y="222" width="100" height="35" origin="3" srcId="23"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="8f5c1978-8015-4fb6-b37d-6be732a6b84d" x="196" y="237" width="100" height="20" origin="3" srcId="24"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Nama]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="52bde57c-905a-4933-8230-4dad382e0db5" x="296" y="237" width="100" height="20" origin="3" srcId="25"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Tempat Lahir]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="233fc10f-15c8-4a09-baae-b9b5df85e9f0" x="396" y="237" width="100" height="20" origin="3" srcId="26"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Tanggal Lahir]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="8ec3eb0b-e66d-4f09-a93f-5bd913c93add" x="496" y="237" width="100" height="20" origin="3" srcId="27"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Jenis Kelamin]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="91891803-851e-49ea-ad9f-7c985861fee0" x="596" y="237" width="100" height="20" origin="3" srcId="28"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Alamat]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9c89ba59-ca0b-4203-84fa-762cb837fcb5" x="696" y="237" width="100" height="20" origin="3" srcId="29"/>
+			<font fontName="Times New Roman" size="12" isStrikeThrough="false"/>
+			<textContent><![CDATA[RT/RW]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="94f6d0ab-2ed2-40db-9103-dfeb8490cdad" x="796" y="237" width="100" height="20" origin="3" srcId="30"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Kelurahan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="55efdf12-85f7-4681-ad6a-d3b17ac055a6" x="896" y="237" width="100" height="20" origin="3" srcId="31"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Kecamatan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="0c5b3deb-10e5-49b7-a283-99a2edd41e0a" x="996" y="237" width="100" height="20" origin="3" srcId="32"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Agama]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="8a87fcb5-f693-4d9b-9990-d947805f6410" x="1096" y="237" width="100" height="20" origin="3" srcId="33"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Setatus Pernikahan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="423ce077-e809-4fe9-acf1-5cbff849cb68" x="1196" y="237" width="100" height="20" origin="3" srcId="34"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Kewarganegaraan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c01ca1ab-3787-4da1-94d9-b3fd5e10aaa6" x="1296" y="237" width="100" height="20" origin="3" srcId="35"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Pendidikan]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="a1d5541d-8c3d-431b-a933-4c7662693dcf" x="1496" y="222" width="100" height="35" origin="3" srcId="36"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="7bec65dc-c52d-4ab4-89e3-c209ca024201" x="1396" y="237" width="100" height="20" origin="3" srcId="37"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Pekerjaan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4c5c9588-b29e-4e41-b05c-5becb3359734" x="1496" y="237" width="100" height="20" origin="3" srcId="38"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Golongan Darah]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="bca9fc70-2a11-4101-ba0c-7d9387a61974" x="96" y="257" width="100" height="20" origin="4" srcId="39"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="eb126df1-8881-42b1-8897-feb03a3aef54" x="96" y="257" width="100" height="20" origin="4" srcId="40"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[201743500799]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="6f8881cf-712f-4245-8925-b926ac5e55d0" x="196" y="257" width="100" height="20" origin="4" srcId="41"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="d203e59f-9c99-4606-8470-b3a9e21054c0" x="296" y="257" width="100" height="20" origin="4" srcId="42"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b2ab379-0d14-4e73-939a-3ffa89288ea4" x="396" y="257" width="100" height="20" origin="4" srcId="43"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e790ed47-c97e-49f8-a63a-e70abb3dc20d" x="496" y="257" width="100" height="20" origin="4" srcId="44"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="dcb51e26-199e-4ce1-8a20-5d0830146c63" x="596" y="257" width="100" height="20" origin="4" srcId="45"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="74aab489-a0f1-4ce1-8559-ae51d1ba0323" x="696" y="257" width="100" height="20" origin="4" srcId="46"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="1a858efb-f39d-4df0-bdce-8be75ce59808" x="796" y="257" width="100" height="20" origin="4" srcId="47"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="185c53c7-3ac8-4ce7-93d2-689fd7d9bd60" x="896" y="257" width="100" height="20" origin="4" srcId="48"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="87666899-94d1-4b7e-a425-ee1ca499443b" x="996" y="257" width="100" height="20" origin="4" srcId="49"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="96c8c0b3-05b1-4534-a4ac-41c6394b7ec6" x="1096" y="257" width="100" height="20" origin="4" srcId="50"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2befb276-d633-461a-b98c-5efb5361855a" x="1196" y="257" width="100" height="20" origin="4" srcId="51"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b49c0be-664d-49cf-bbd4-7362b24e8074" x="1296" y="257" width="100" height="20" origin="4" srcId="52"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="c643c84b-c209-47a7-95f9-13fe4554bc3b" x="1396" y="257" width="100" height="20" origin="4" srcId="53"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9ff77ff2-2e63-4da6-b218-be46546fed64" x="196" y="257" width="100" height="20" origin="4" srcId="54"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Ahmad Nuripa]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9f851deb-c7e7-47e7-aef4-22d6b71dec3f" x="296" y="257" width="100" height="20" origin="4" srcId="55"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[bandung]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4bac5688-74b3-4c80-9eec-383d2f88665f" x="396" y="257" width="100" height="20" origin="4" srcId="56"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[1-Januari-1998]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c0e98303-d4fe-4a81-bd78-144447ee13b6" x="496" y="257" width="100" height="20" origin="4" srcId="57"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Laki-Laki]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9d71bc44-7fbe-4b92-815c-231d588d29a7" x="596" y="257" width="100" height="20" origin="4" srcId="58"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[depok]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Top" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a4b8995a-b498-4f51-9baf-1351df473e6b" x="696" y="257" width="100" height="20" origin="4" srcId="59"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[10]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="76cc9ce4-9701-42f7-ba0a-77d23efe6372" x="796" y="257" width="100" height="20" origin="4" srcId="60"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[curug]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a86a4e7c-649e-49c6-81db-6c6f5c7e9eef" x="896" y="257" width="100" height="20" origin="4" srcId="61"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[cimanggis]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="f143d7e5-fbcd-40ff-a533-64d61de75d79" x="996" y="257" width="100" height="20" origin="4" srcId="62"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Islam]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="1fbfa272-5bda-4678-885d-bccad91a37ea" x="1096" y="259" width="100" height="20" origin="4" srcId="63"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Menikah]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4d497f62-ee85-46c5-8e0a-49dab46b27a7" x="1196" y="257" width="100" height="20" origin="4" srcId="64"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Warga Negara ]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="699df50f-1b26-40f9-bdfd-556327eefb17" x="1296" y="257" width="100" height="20" origin="4" srcId="65"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[SD]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="2ba2657a-f962-4bf4-b11c-ff2dc52999c7" x="1496" y="257" width="100" height="20" origin="4" srcId="66"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="08b6ff8d-6ebc-4d74-8a28-af51c63c1a64" x="1396" y="257" width="100" height="20" origin="4" srcId="67"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Karyawan Swasta]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="24ee82f3-04f1-4da1-906b-d57481948eff" x="1496" y="259" width="100" height="20" origin="4" srcId="68"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[A]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="bca9fc70-2a11-4101-ba0c-7d9387a61974" x="96" y="279" width="100" height="20" origin="4" srcId="39"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="eb126df1-8881-42b1-8897-feb03a3aef54" x="96" y="279" width="100" height="20" origin="4" srcId="40"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[201743500772]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="6f8881cf-712f-4245-8925-b926ac5e55d0" x="196" y="279" width="100" height="20" origin="4" srcId="41"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="d203e59f-9c99-4606-8470-b3a9e21054c0" x="296" y="279" width="100" height="20" origin="4" srcId="42"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b2ab379-0d14-4e73-939a-3ffa89288ea4" x="396" y="279" width="100" height="20" origin="4" srcId="43"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e790ed47-c97e-49f8-a63a-e70abb3dc20d" x="496" y="279" width="100" height="20" origin="4" srcId="44"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="dcb51e26-199e-4ce1-8a20-5d0830146c63" x="596" y="279" width="100" height="20" origin="4" srcId="45"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="74aab489-a0f1-4ce1-8559-ae51d1ba0323" x="696" y="279" width="100" height="20" origin="4" srcId="46"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="1a858efb-f39d-4df0-bdce-8be75ce59808" x="796" y="279" width="100" height="20" origin="4" srcId="47"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="185c53c7-3ac8-4ce7-93d2-689fd7d9bd60" x="896" y="279" width="100" height="20" origin="4" srcId="48"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="87666899-94d1-4b7e-a425-ee1ca499443b" x="996" y="279" width="100" height="20" origin="4" srcId="49"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="96c8c0b3-05b1-4534-a4ac-41c6394b7ec6" x="1096" y="279" width="100" height="20" origin="4" srcId="50"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2befb276-d633-461a-b98c-5efb5361855a" x="1196" y="279" width="100" height="20" origin="4" srcId="51"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b49c0be-664d-49cf-bbd4-7362b24e8074" x="1296" y="279" width="100" height="20" origin="4" srcId="52"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="c643c84b-c209-47a7-95f9-13fe4554bc3b" x="1396" y="279" width="100" height="20" origin="4" srcId="53"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9ff77ff2-2e63-4da6-b218-be46546fed64" x="196" y="279" width="100" height="20" origin="4" srcId="54"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Bayu April Setiaji]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9f851deb-c7e7-47e7-aef4-22d6b71dec3f" x="296" y="279" width="100" height="20" origin="4" srcId="55"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Jakarta]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4bac5688-74b3-4c80-9eec-383d2f88665f" x="396" y="279" width="100" height="20" origin="4" srcId="56"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[1-Maret-1995]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c0e98303-d4fe-4a81-bd78-144447ee13b6" x="496" y="279" width="100" height="20" origin="4" srcId="57"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Laki-Laki]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9d71bc44-7fbe-4b92-815c-231d588d29a7" x="596" y="279" width="100" height="20" origin="4" srcId="58"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[depok]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Top" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a4b8995a-b498-4f51-9baf-1351df473e6b" x="696" y="279" width="100" height="20" origin="4" srcId="59"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[10]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="76cc9ce4-9701-42f7-ba0a-77d23efe6372" x="796" y="279" width="100" height="20" origin="4" srcId="60"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[curug]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a86a4e7c-649e-49c6-81db-6c6f5c7e9eef" x="896" y="279" width="100" height="20" origin="4" srcId="61"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[cimanggis]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="f143d7e5-fbcd-40ff-a533-64d61de75d79" x="996" y="279" width="100" height="20" origin="4" srcId="62"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Islam]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="1fbfa272-5bda-4678-885d-bccad91a37ea" x="1096" y="281" width="100" height="20" origin="4" srcId="63"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Belum Menikah]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4d497f62-ee85-46c5-8e0a-49dab46b27a7" x="1196" y="279" width="100" height="20" origin="4" srcId="64"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Warga Negara ]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="699df50f-1b26-40f9-bdfd-556327eefb17" x="1296" y="279" width="100" height="20" origin="4" srcId="65"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[SD]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="2ba2657a-f962-4bf4-b11c-ff2dc52999c7" x="1496" y="279" width="100" height="20" origin="4" srcId="66"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="08b6ff8d-6ebc-4d74-8a28-af51c63c1a64" x="1396" y="279" width="100" height="20" origin="4" srcId="67"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Karyawan Swasta]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="24ee82f3-04f1-4da1-906b-d57481948eff" x="1496" y="281" width="100" height="20" origin="4" srcId="68"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[A]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="bca9fc70-2a11-4101-ba0c-7d9387a61974" x="96" y="301" width="100" height="20" origin="4" srcId="39"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="eb126df1-8881-42b1-8897-feb03a3aef54" x="96" y="301" width="100" height="20" origin="4" srcId="40"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[201743500776]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="6f8881cf-712f-4245-8925-b926ac5e55d0" x="196" y="301" width="100" height="20" origin="4" srcId="41"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="d203e59f-9c99-4606-8470-b3a9e21054c0" x="296" y="301" width="100" height="20" origin="4" srcId="42"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b2ab379-0d14-4e73-939a-3ffa89288ea4" x="396" y="301" width="100" height="20" origin="4" srcId="43"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e790ed47-c97e-49f8-a63a-e70abb3dc20d" x="496" y="301" width="100" height="20" origin="4" srcId="44"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="dcb51e26-199e-4ce1-8a20-5d0830146c63" x="596" y="301" width="100" height="20" origin="4" srcId="45"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="74aab489-a0f1-4ce1-8559-ae51d1ba0323" x="696" y="301" width="100" height="20" origin="4" srcId="46"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="1a858efb-f39d-4df0-bdce-8be75ce59808" x="796" y="301" width="100" height="20" origin="4" srcId="47"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="185c53c7-3ac8-4ce7-93d2-689fd7d9bd60" x="896" y="301" width="100" height="20" origin="4" srcId="48"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="87666899-94d1-4b7e-a425-ee1ca499443b" x="996" y="301" width="100" height="20" origin="4" srcId="49"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="96c8c0b3-05b1-4534-a4ac-41c6394b7ec6" x="1096" y="301" width="100" height="20" origin="4" srcId="50"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2befb276-d633-461a-b98c-5efb5361855a" x="1196" y="301" width="100" height="20" origin="4" srcId="51"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b49c0be-664d-49cf-bbd4-7362b24e8074" x="1296" y="301" width="100" height="20" origin="4" srcId="52"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="c643c84b-c209-47a7-95f9-13fe4554bc3b" x="1396" y="301" width="100" height="20" origin="4" srcId="53"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9ff77ff2-2e63-4da6-b218-be46546fed64" x="196" y="301" width="100" height="20" origin="4" srcId="54"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Dwi Maryati]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9f851deb-c7e7-47e7-aef4-22d6b71dec3f" x="296" y="301" width="100" height="20" origin="4" srcId="55"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Sukmajaya]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4bac5688-74b3-4c80-9eec-383d2f88665f" x="396" y="301" width="100" height="20" origin="4" srcId="56"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[5-Maret-1997]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c0e98303-d4fe-4a81-bd78-144447ee13b6" x="496" y="301" width="100" height="20" origin="4" srcId="57"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Perempuan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9d71bc44-7fbe-4b92-815c-231d588d29a7" x="596" y="301" width="100" height="20" origin="4" srcId="58"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[depok]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Top" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a4b8995a-b498-4f51-9baf-1351df473e6b" x="696" y="301" width="100" height="20" origin="4" srcId="59"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[10]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="76cc9ce4-9701-42f7-ba0a-77d23efe6372" x="796" y="301" width="100" height="20" origin="4" srcId="60"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[curug]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a86a4e7c-649e-49c6-81db-6c6f5c7e9eef" x="896" y="301" width="100" height="20" origin="4" srcId="61"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[cimanggis]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="f143d7e5-fbcd-40ff-a533-64d61de75d79" x="996" y="301" width="100" height="20" origin="4" srcId="62"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Islam]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="1fbfa272-5bda-4678-885d-bccad91a37ea" x="1096" y="303" width="100" height="20" origin="4" srcId="63"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Belum Menikah]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4d497f62-ee85-46c5-8e0a-49dab46b27a7" x="1196" y="301" width="100" height="20" origin="4" srcId="64"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Warga Negara ]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="699df50f-1b26-40f9-bdfd-556327eefb17" x="1296" y="301" width="100" height="20" origin="4" srcId="65"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[PERGURUAN ]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="2ba2657a-f962-4bf4-b11c-ff2dc52999c7" x="1496" y="301" width="100" height="20" origin="4" srcId="66"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="08b6ff8d-6ebc-4d74-8a28-af51c63c1a64" x="1396" y="301" width="100" height="20" origin="4" srcId="67"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[PNS]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="24ee82f3-04f1-4da1-906b-d57481948eff" x="1496" y="303" width="100" height="20" origin="4" srcId="68"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[B]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="d006c45f-5a4f-46f2-bfa3-1b2061834108" x="1433" y="373" width="35" height="20" origin="5" srcId="69"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Depok]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203" valueClass="java.util.Date" pattern="dd MMMMM yyyy">
+			<reportElement uuid="2e562ae2-90bd-4c6a-b40e-a0b6077cd963" x="1468" y="373" width="100" height="20" origin="5" srcId="70"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[29 Juli 2021]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="3b8cd7d0-83de-4592-85d7-470d7c41a151" x="1468" y="393" width="49" height="20" origin="5" srcId="71"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[LURAH  ]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c1d66805-0b5b-4bf7-ba0a-7e6e5efd010e" x="1403" y="463" width="193" height="20" origin="5" srcId="72"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[BAMBANG EKO SUKMONO, S.Sos]]></textContent>
+		</text>
+		<line>
+			<reportElement uuid="1ccca63b-9891-4f53-bf68-f4b4ebc55c3b" x="1403" y="482" width="193" height="1" origin="5" srcId="73"/>
+		</line>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="c1e71fa7-1805-405b-87d3-a97113597518" x="1437" y="482" width="149" height="20" origin="5" srcId="74"/>
+			<textContent><![CDATA[NIP. 19670915.198901.1.1.002]]></textContent>
+		</text>
+	</page>
+	<page>
+		<rectangle radius="0">
+			<reportElement uuid="b1afdadb-897e-48f1-8135-5717707dff60" x="96" y="39" width="100" height="35" origin="3" srcId="9"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="e0ce2419-d219-40cc-aae1-b93ad25a4260" x="96" y="54" width="100" height="20" origin="3" srcId="10"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Nik]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="15cd83ad-f1a8-4703-8233-6e722c873ba5" x="196" y="39" width="100" height="35" origin="3" srcId="11"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="0355b9a3-6490-4f12-a749-736ed109f788" x="296" y="39" width="100" height="35" origin="3" srcId="12"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="1049d7bd-93cd-4a27-acaf-906a954b7ade" x="396" y="39" width="100" height="35" origin="3" srcId="13"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="5f566261-962d-44a0-82f5-4f865d0eb213" x="496" y="39" width="100" height="35" origin="3" srcId="14"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e10942db-bc6e-473a-a5b6-5d00a0a46d12" x="596" y="39" width="100" height="35" origin="3" srcId="15"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="12e0c01f-97bb-4639-bc30-26a28931f521" x="696" y="39" width="100" height="35" origin="3" srcId="16"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="0aa92226-f541-49f8-94a7-b3cd731ea4e5" x="796" y="39" width="100" height="35" origin="3" srcId="17"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="6242d8b6-22a3-4471-8e55-88975ad07bb4" x="896" y="39" width="100" height="35" origin="3" srcId="18"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="58cbc40d-e29f-4f2c-8039-4c1cc6069b8f" x="996" y="39" width="100" height="35" origin="3" srcId="19"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="36bd745e-1151-487c-a6c3-b9d599f7aa7b" x="1096" y="39" width="100" height="35" origin="3" srcId="20"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="b02b17a8-0343-4dd0-af35-ced64b905cca" x="1196" y="39" width="100" height="35" origin="3" srcId="21"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="7da0a59e-4b4d-4560-83ec-2044f8803f03" x="1296" y="39" width="100" height="35" origin="3" srcId="22"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="8f1e08b5-bbfc-4e0a-9582-d215e8c60892" x="1396" y="39" width="100" height="35" origin="3" srcId="23"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="8f5c1978-8015-4fb6-b37d-6be732a6b84d" x="196" y="54" width="100" height="20" origin="3" srcId="24"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Nama]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="52bde57c-905a-4933-8230-4dad382e0db5" x="296" y="54" width="100" height="20" origin="3" srcId="25"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Tempat Lahir]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="233fc10f-15c8-4a09-baae-b9b5df85e9f0" x="396" y="54" width="100" height="20" origin="3" srcId="26"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Tanggal Lahir]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="8ec3eb0b-e66d-4f09-a93f-5bd913c93add" x="496" y="54" width="100" height="20" origin="3" srcId="27"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Jenis Kelamin]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="91891803-851e-49ea-ad9f-7c985861fee0" x="596" y="54" width="100" height="20" origin="3" srcId="28"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Alamat]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9c89ba59-ca0b-4203-84fa-762cb837fcb5" x="696" y="54" width="100" height="20" origin="3" srcId="29"/>
+			<font fontName="Times New Roman" size="12" isStrikeThrough="false"/>
+			<textContent><![CDATA[RT/RW]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="94f6d0ab-2ed2-40db-9103-dfeb8490cdad" x="796" y="54" width="100" height="20" origin="3" srcId="30"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Kelurahan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="55efdf12-85f7-4681-ad6a-d3b17ac055a6" x="896" y="54" width="100" height="20" origin="3" srcId="31"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Kecamatan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="0c5b3deb-10e5-49b7-a283-99a2edd41e0a" x="996" y="54" width="100" height="20" origin="3" srcId="32"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Agama]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="8a87fcb5-f693-4d9b-9990-d947805f6410" x="1096" y="54" width="100" height="20" origin="3" srcId="33"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Setatus Pernikahan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="423ce077-e809-4fe9-acf1-5cbff849cb68" x="1196" y="54" width="100" height="20" origin="3" srcId="34"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Kewarganegaraan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c01ca1ab-3787-4da1-94d9-b3fd5e10aaa6" x="1296" y="54" width="100" height="20" origin="3" srcId="35"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Pendidikan]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="a1d5541d-8c3d-431b-a933-4c7662693dcf" x="1496" y="39" width="100" height="35" origin="3" srcId="36"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="7bec65dc-c52d-4ab4-89e3-c209ca024201" x="1396" y="54" width="100" height="20" origin="3" srcId="37"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Pekerjaan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4c5c9588-b29e-4e41-b05c-5becb3359734" x="1496" y="54" width="100" height="20" origin="3" srcId="38"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Golongan Darah]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="bca9fc70-2a11-4101-ba0c-7d9387a61974" x="96" y="74" width="100" height="20" origin="4" srcId="39"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="eb126df1-8881-42b1-8897-feb03a3aef54" x="96" y="74" width="100" height="20" origin="4" srcId="40"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[201743500812]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="6f8881cf-712f-4245-8925-b926ac5e55d0" x="196" y="74" width="100" height="20" origin="4" srcId="41"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="d203e59f-9c99-4606-8470-b3a9e21054c0" x="296" y="74" width="100" height="20" origin="4" srcId="42"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b2ab379-0d14-4e73-939a-3ffa89288ea4" x="396" y="74" width="100" height="20" origin="4" srcId="43"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="e790ed47-c97e-49f8-a63a-e70abb3dc20d" x="496" y="74" width="100" height="20" origin="4" srcId="44"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="dcb51e26-199e-4ce1-8a20-5d0830146c63" x="596" y="74" width="100" height="20" origin="4" srcId="45"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="74aab489-a0f1-4ce1-8559-ae51d1ba0323" x="696" y="74" width="100" height="20" origin="4" srcId="46"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="1a858efb-f39d-4df0-bdce-8be75ce59808" x="796" y="74" width="100" height="20" origin="4" srcId="47"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="185c53c7-3ac8-4ce7-93d2-689fd7d9bd60" x="896" y="74" width="100" height="20" origin="4" srcId="48"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="87666899-94d1-4b7e-a425-ee1ca499443b" x="996" y="74" width="100" height="20" origin="4" srcId="49"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="96c8c0b3-05b1-4534-a4ac-41c6394b7ec6" x="1096" y="74" width="100" height="20" origin="4" srcId="50"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2befb276-d633-461a-b98c-5efb5361855a" x="1196" y="74" width="100" height="20" origin="4" srcId="51"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="2b49c0be-664d-49cf-bbd4-7362b24e8074" x="1296" y="74" width="100" height="20" origin="4" srcId="52"/>
+		</rectangle>
+		<rectangle radius="0">
+			<reportElement uuid="c643c84b-c209-47a7-95f9-13fe4554bc3b" x="1396" y="74" width="100" height="20" origin="4" srcId="53"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9ff77ff2-2e63-4da6-b218-be46546fed64" x="196" y="74" width="100" height="20" origin="4" srcId="54"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Lutfiani Miftah ]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9f851deb-c7e7-47e7-aef4-22d6b71dec3f" x="296" y="74" width="100" height="20" origin="4" srcId="55"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Pancoran Mas]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4bac5688-74b3-4c80-9eec-383d2f88665f" x="396" y="74" width="100" height="20" origin="4" srcId="56"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[4-Juni-1999]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c0e98303-d4fe-4a81-bd78-144447ee13b6" x="496" y="74" width="100" height="20" origin="4" srcId="57"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Perempuan]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="9d71bc44-7fbe-4b92-815c-231d588d29a7" x="596" y="74" width="100" height="20" origin="4" srcId="58"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[depok]]></textContent>
+		</text>
+		<text textAlignment="Center" verticalAlignment="Top" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a4b8995a-b498-4f51-9baf-1351df473e6b" x="696" y="74" width="100" height="20" origin="4" srcId="59"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[10]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="76cc9ce4-9701-42f7-ba0a-77d23efe6372" x="796" y="74" width="100" height="20" origin="4" srcId="60"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[curug]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="a86a4e7c-649e-49c6-81db-6c6f5c7e9eef" x="896" y="74" width="100" height="20" origin="4" srcId="61"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[cimanggis]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="f143d7e5-fbcd-40ff-a533-64d61de75d79" x="996" y="74" width="100" height="20" origin="4" srcId="62"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Islam]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="1fbfa272-5bda-4678-885d-bccad91a37ea" x="1096" y="76" width="100" height="20" origin="4" srcId="63"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Menikah]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="4d497f62-ee85-46c5-8e0a-49dab46b27a7" x="1196" y="74" width="100" height="20" origin="4" srcId="64"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Warga Negara ]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="699df50f-1b26-40f9-bdfd-556327eefb17" x="1296" y="74" width="100" height="20" origin="4" srcId="65"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[PERGURUAN ]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="2ba2657a-f962-4bf4-b11c-ff2dc52999c7" x="1496" y="74" width="100" height="20" origin="4" srcId="66"/>
+		</rectangle>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="08b6ff8d-6ebc-4d74-8a28-af51c63c1a64" x="1396" y="74" width="100" height="20" origin="4" srcId="67"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Wirausaha]]></textContent>
+		</text>
+		<text textAlignment="Center" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="24ee82f3-04f1-4da1-906b-d57481948eff" x="1496" y="76" width="100" height="20" origin="4" srcId="68"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[AB]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="d006c45f-5a4f-46f2-bfa3-1b2061834108" x="1433" y="373" width="35" height="20" origin="5" srcId="69"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[Depok]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203" valueClass="java.util.Date" pattern="dd MMMMM yyyy">
+			<reportElement uuid="2e562ae2-90bd-4c6a-b40e-a0b6077cd963" x="1468" y="373" width="100" height="20" origin="5" srcId="70"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[29 Juli 2021]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="3b8cd7d0-83de-4592-85d7-470d7c41a151" x="1468" y="393" width="49" height="20" origin="5" srcId="71"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[LURAH  ]]></textContent>
+		</text>
+		<text textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
+			<reportElement uuid="c1d66805-0b5b-4bf7-ba0a-7e6e5efd010e" x="1403" y="463" width="193" height="20" origin="5" srcId="72"/>
+			<font fontName="Times New Roman" size="12"/>
+			<textContent><![CDATA[BAMBANG EKO SUKMONO, S.Sos]]></textContent>
+		</text>
+		<line>
+			<reportElement uuid="1ccca63b-9891-4f53-bf68-f4b4ebc55c3b" x="1403" y="482" width="193" height="1" origin="5" srcId="73"/>
+		</line>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="c1e71fa7-1805-405b-87d3-a97113597518" x="1437" y="482" width="149" height="20" origin="5" srcId="74"/>
+			<textContent><![CDATA[NIP. 19670915.198901.1.1.002]]></textContent>
+		</text>
+	</page>
+</jasperPrint>

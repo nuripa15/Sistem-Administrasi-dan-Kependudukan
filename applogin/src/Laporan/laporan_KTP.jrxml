@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3c1f8822-8c19-4dd1-a655-f4cb9600b12d">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="62"/>
+	<property name="ireport.y" value="17"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     input_data_ktp.`no_surat` AS input_data_ktp_no_surat,
+     input_data_ktp.`nik` AS input_data_ktp_nik,
+     input_data_ktp.`no_ktp` AS input_data_ktp_no_ktp,
+     input_data_ktp.`nama` AS input_data_ktp_nama,
+     input_data_ktp.`alamat` AS input_data_ktp_alamat,
+     input_data_ktp.`berlaku_sampai` AS input_data_ktp_berlaku_sampai
+FROM
+     `input_data_ktp` input_data_ktp]]>
+	</queryString>
+	<field name="input_data_ktp_no_surat" class="java.lang.String"/>
+	<field name="input_data_ktp_nik" class="java.lang.String"/>
+	<field name="input_data_ktp_no_ktp" class="java.lang.String"/>
+	<field name="input_data_ktp_nama" class="java.lang.String"/>
+	<field name="input_data_ktp_alamat" class="java.lang.String"/>
+	<field name="input_data_ktp_berlaku_sampai" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="12" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="177" splitType="Stretch">
+			<image>
+				<reportElement x="90" y="27" width="57" height="75" uuid="ec8bfbec-2c9c-4e33-9a5b-bdd70449c3b2"/>
+				<imageExpression><![CDATA["D:\\AppLogin\\applogin\\src\\applogin\\imageEsDFDF.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="181" y="6" width="245" height="21" uuid="e0a60ed9-2860-429c-a62d-272c70a3e591"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA KTP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="27" width="314" height="34" uuid="5e4ced51-e003-438d-91f8-8628e893de99"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KECAMATAN CIMANGGIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="144" y="61" width="314" height="34" uuid="d81a601b-ca3a-4153-b470-63349a68c981"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KELURAHAN CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="95" width="272" height="20" uuid="b20f6ac6-3c9b-428b-a544-9b36eb83f47b"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Alamat : Jl. Raya Pekapuran Rt. 002/005 Telp.(021)8741672]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="115" width="272" height="20" uuid="050848e7-2a31-4f93-8356-cfa4887ec86d"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Cimanggis- Depok 16453]]></text>
+			</staticText>
+			<line>
+				<reportElement x="5" y="170" width="549" height="1" uuid="fae75a13-22a6-4a49-ad39-9a589d7c1f59"/>
+			</line>
+			<line>
+				<reportElement x="5" y="159" width="549" height="1" uuid="1f4a0ed5-05ef-4ef2-82aa-bbec03054d16"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<rectangle>
+				<reportElement x="12" y="41" width="90" height="20" backcolor="#FFFFFF" uuid="5fcd5d8d-d537-4bc9-8b5f-d03dec897f98"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="102" y="41" width="79" height="20" backcolor="#FFFFFF" uuid="e7e75581-b941-46ed-9cc9-2dbfa5683716"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="181" y="41" width="103" height="20" backcolor="#FFFFFF" uuid="75495c38-ad36-4e0d-9496-9cadb4f2875e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="284" y="41" width="90" height="20" backcolor="#FFFFFF" uuid="01eeeee2-c691-44da-b66b-ed8bc95d86b6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="374" y="41" width="90" height="20" backcolor="#FFFFFF" uuid="941a5083-cc88-48bb-96de-02b3739fb0c3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="464" y="41" width="90" height="20" backcolor="#FFFFFF" uuid="04b1d2e0-2306-4347-a570-de8cbc1746d8"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="35" y="41" width="55" height="20" uuid="49bf22ea-ba08-4e02-b07b-d37968658275"/>
+				<text><![CDATA[No Surat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="41" width="45" height="20" uuid="48cf72ab-0433-4601-9cb9-d588c184d31c"/>
+				<text><![CDATA[NIK]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="213" y="41" width="71" height="20" uuid="47db0591-5170-4202-8034-fbd4739221c6"/>
+				<text><![CDATA[No KTP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="309" y="41" width="51" height="20" uuid="f158c72b-09e3-4c06-ae7e-d7cf9eb00c63"/>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="41" width="63" height="20" uuid="e234c1b3-1dda-49dc-850e-ba2714415ea8"/>
+				<text><![CDATA[Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="481" y="41" width="67" height="20" uuid="0f2523a4-35f4-4bda-bcc9-67d89556e2ce"/>
+				<text><![CDATA[Masa Berlaku]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement x="23" y="0" width="79" height="20" uuid="0f8caf29-8636-485e-b1f5-69ee1463f17d"/>
+				<textFieldExpression><![CDATA[$F{input_data_ktp_no_surat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="113" y="0" width="68" height="20" uuid="2563fde0-2b20-4199-9dfe-6af9a19bc7e7"/>
+				<textFieldExpression><![CDATA[$F{input_data_ktp_nik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="201" y="0" width="66" height="20" uuid="acd56c34-d1a3-4ed7-9ff7-f70e835b82ce"/>
+				<textFieldExpression><![CDATA[$F{input_data_ktp_no_ktp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="296" y="0" width="64" height="20" uuid="f1c72694-d3be-4e80-9f96-1b1be7ab1dfc"/>
+				<textFieldExpression><![CDATA[$F{input_data_ktp_nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="0" width="53" height="20" uuid="acce0ee6-f52f-461e-97e8-d21519948e1a"/>
+				<textFieldExpression><![CDATA[$F{input_data_ktp_alamat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="481" y="0" width="67" height="20" uuid="6adf0318-7aae-4160-a2e5-4f90c8ab1289"/>
+				<textFieldExpression><![CDATA[$F{input_data_ktp_berlaku_sampai}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="464" y="0" width="90" height="20" uuid="11240790-083d-4d7a-8651-9dfb1b7d1fd1"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="374" y="0" width="90" height="20" uuid="0a170d48-5d61-4fba-aa6d-a451bb3b8f86"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="181" y="0" width="103" height="20" uuid="b78975c8-59ce-4f09-9639-9ad8ee7bdc68"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="102" y="0" width="79" height="20" uuid="872552db-fe36-4888-bd5b-23c7dca3808d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="12" y="0" width="90" height="20" uuid="d7d4d6db-5085-40d1-83dd-ea5f225812fa"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="284" y="0" width="90" height="20" uuid="0208a0b7-170d-46e6-9333-20b87799c01c"/>
+			</rectangle>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="11" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="122" splitType="Stretch">
+			<staticText>
+				<reportElement x="360" y="0" width="35" height="20" uuid="9050315a-15eb-47f2-9d8a-720f59b5f040"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Depok]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="395" y="0" width="100" height="20" uuid="cdceba18-99c1-43b2-a249-f2f053bba2c0"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="392" y="20" width="49" height="20" uuid="039d03c6-671f-4967-b29f-0dcf45d9ffad"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[LURAH  CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="72" width="193" height="20" uuid="03aef62b-b485-4838-a799-168901bb0e36"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[BAMBANG EKO SUKMONO, S.Sos]]></text>
+			</staticText>
+			<line>
+				<reportElement x="326" y="91" width="193" height="1" uuid="05aec8d8-f296-4dc9-b8e0-0636e205a0cd"/>
+			</line>
+			<staticText>
+				<reportElement x="346" y="92" width="149" height="20" uuid="49aba061-06a8-45b0-833a-cef35084c3cf"/>
+				<text><![CDATA[NIP. 19670915.198901.1.1.002]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="9" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="06b5869f-5661-4e9b-9aa1-fbb9d0a393ce">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="58"/>
+	<property name="ireport.y" value="38"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     i_data_pindahan.`no_surat_pindah` AS i_data_pindahan_no_surat_pindah,
+     i_data_pindahan.`nama` AS i_data_pindahan_nama,
+     i_data_pindahan.`alamat_asal` AS i_data_pindahan_alamat_asal,
+     i_data_pindahan.`alamat_tujuan` AS i_data_pindahan_alamat_tujuan,
+     i_data_pindahan.`tanggal_pindah` AS i_data_pindahan_tanggal_pindah
+FROM
+     `i_data_pindahan` i_data_pindahan]]>
+	</queryString>
+	<field name="i_data_pindahan_no_surat_pindah" class="java.lang.String"/>
+	<field name="i_data_pindahan_nama" class="java.lang.String"/>
+	<field name="i_data_pindahan_alamat_asal" class="java.lang.String"/>
+	<field name="i_data_pindahan_alamat_tujuan" class="java.lang.String"/>
+	<field name="i_data_pindahan_tanggal_pindah" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="206" splitType="Stretch">
+			<image>
+				<reportElement x="177" y="41" width="57" height="75" uuid="5b1bcbf5-0c13-4598-9aad-9c1c24471c19"/>
+				<imageExpression><![CDATA["D:\\AppLogin\\applogin\\src\\applogin\\imageEsDFDF.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="273" y="20" width="261" height="21" uuid="992e2dd2-c8df-4422-a390-27567b53d26b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA PERPINDAHAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="75" width="314" height="34" uuid="b88f3dc2-e73f-4f05-b958-1179534b4629"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KECAMATAN CIMANGGIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="256" y="41" width="314" height="34" uuid="371ad279-1bc4-4380-bf0b-8a8c45dc7dfe"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KELURAHAN CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="288" y="109" width="272" height="20" uuid="25028867-7b5b-4434-846c-4ddda0e19516"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Alamat : Jl. Raya Pekapuran Rt. 002/005 Telp.(021)8741672]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="298" y="129" width="272" height="20" uuid="1aeca52a-9348-4c64-9b15-ad90bbfeb8da"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Cimanggis- Depok 16453]]></text>
+			</staticText>
+			<line>
+				<reportElement x="100" y="176" width="600" height="1" uuid="3767b056-356c-44d9-8cb9-aa819d8cd36b"/>
+			</line>
+			<line>
+				<reportElement x="100" y="189" width="600" height="1" uuid="e8615d3f-fec6-46a7-bea5-0d23615e19fd"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="22" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch">
+			<rectangle>
+				<reportElement x="134" y="3" width="100" height="20" uuid="9e881853-8235-4671-93b1-83263f7e1a1b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="234" y="3" width="100" height="20" uuid="f81dd6cc-8237-43cb-a3f7-a117f51482c7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="334" y="3" width="100" height="20" uuid="48f8471a-a23f-4f43-a2ef-bb92edee4a98"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="434" y="3" width="100" height="20" uuid="d575252f-ea60-4a5e-b2a1-d716c225f25e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="534" y="3" width="100" height="20" uuid="47ad659c-bfd4-4d0f-85e2-cf9a219b3f80"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="134" y="3" width="100" height="20" uuid="7fcbb5f5-e16b-44f5-957b-fc596801d74a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[No Surat Pindah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="3" width="100" height="20" uuid="d2acc469-136c-46a4-84a6-aaa0f70f58f0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="334" y="3" width="100" height="20" uuid="7784494a-d8d8-49bd-b647-6f2119c8e586"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Alamat Asal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="434" y="3" width="100" height="20" uuid="b6b7c8bf-7524-40d9-9adb-bccee5c97685"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Alamat Tujuan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="534" y="3" width="100" height="20" uuid="2c247f15-862d-48e3-875a-71b070f6ec0d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Tanggal Pindah]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="37" splitType="Stretch">
+			<rectangle>
+				<reportElement x="134" y="0" width="100" height="32" uuid="fbfd8f8d-5e2b-43f2-8e42-1c4f1e104828"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="234" y="0" width="100" height="32" uuid="bc6359b8-9d2e-45e0-a987-4576d2b170df"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="334" y="0" width="100" height="32" uuid="0f6da051-f156-44fd-b447-468da79250c7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="434" y="0" width="100" height="32" uuid="3120068c-9946-4712-b729-874aca5b74b5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="534" y="0" width="100" height="32" uuid="efbcd41b-5ad7-4675-9b18-a36b622b3e03"/>
+			</rectangle>
+			<textField>
+				<reportElement x="134" y="0" width="100" height="20" uuid="9fb553c6-bd7a-4cdd-b12f-4189f95d78e5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_pindahan_no_surat_pindah}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="234" y="0" width="100" height="20" uuid="1c5365af-9c4e-4439-b454-d685ea0e85a0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_pindahan_nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="0" width="100" height="20" uuid="a0a3b662-4782-4838-a709-83f2e69a6e5b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_pindahan_alamat_asal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="434" y="0" width="100" height="20" uuid="d50b481f-9e3d-452c-bcd1-8dce0737fe42"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_pindahan_alamat_tujuan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="534" y="0" width="100" height="20" uuid="eb0682bf-cc6d-4c0c-8dd8-177eb6d7f224"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{i_data_pindahan_tanggal_pindah}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="141" splitType="Stretch">
+			<staticText>
+				<reportElement x="505" y="10" width="35" height="20" uuid="df205a00-6d62-4d24-b5f3-a89bf4dca498"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Depok]]></text>
+			</staticText>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="541" y="10" width="100" height="20" uuid="e927b0f1-0891-44fd-ba0f-1ed9f2840ae0"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="527" y="30" width="49" height="20" uuid="ec568d0c-c7c7-4450-a34d-460bd1e5addf"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[LURAH  CURUG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="465" y="93" width="193" height="20" uuid="f77034c7-b6f0-4f77-9285-ea270d4bda5d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[BAMBANG EKO SUKMONO, S.Sos]]></text>
+			</staticText>
+			<line>
+				<reportElement x="465" y="113" width="193" height="1" uuid="393980dc-72f7-4837-8263-8f3bfdf17d01"/>
+			</line>
+			<staticText>
+				<reportElement x="485" y="114" width="149" height="20" uuid="87891843-5927-4997-be97-df10c6019091"/>
+				<text><![CDATA[NIP. 19670915.198901.1.1.002]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
